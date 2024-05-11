@@ -1,0 +1,296 @@
+ 
+
+ 
+ @media (max-width:991px) {
+    
+   .frist__header{
+     display: none;
+     background: none;
+   }
+   
+   .content .nav ul{
+      display: none;
+   }
+
+   .nav {
+     position: relative;
+   }
+   
+    .header .container .mobile-menu{
+        display: block;
+        float: right;
+        border: 2px solid #555555;
+        margin-top: 5px;
+        height: 37px;
+        width: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .container .mobile-menu i{
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+    .hero{
+        margin-top: 100px;
+    }
+
+
+    /*=================================== Hambargar_menu Design ================================= */
+     
+    .hamcontainer {
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        margin-left:-100% ;
+        position: absolute;
+        transition: .5s;
+        z-index: 300;
+        position: fixed;
+    }
+
+    .hambargar{
+        display: block;
+        width:270px;
+        left: 0px;
+        top: -0px;
+        padding-left: 20px;
+        padding-top: 50px;
+        height: 100vh;
+        overflow-y: auto;
+        background: #fff;
+        position: absolute;
+      
+    }
+
+    .hamcontainer.left-set{
+        margin-left: 0px;
+        
+    }
+
+    .hambargar .love{
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .hambargar .love .icon-1 {
+        position: relative;
+    }
+
+    .hambargar  .love .icon-1::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -12px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #7fad39;
+    }
+
+    .hambargar .love .icon-1:nth-child(1) span {
+        font-size: 10px;
+        font-weight: 700;
+        position: absolute;
+        bottom: 18px;
+        left: 20px;
+        color: #fff;
+    }
+
+    .hambargar .love .icon-1:nth-child(2) span {
+        font-size: 10px;
+        font-weight: 700;
+        position: absolute;
+        bottom: 18px;
+        left: 18px;
+        color: #fff;
+    }
+
+    .hambargar .love .icon-1 i {
+        font-size: 18px;
+    }
+     
+    .hambargar .love span{
+        display: flex;
+    }
+    
+    .hambargar .love .price h4 {
+        font-size: 15px;
+        font-weight: 700;
+        color: #000000;
+        padding-top: 5px;
+    }
+    
+    .hambargar .spanis{
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .hambargar .ham-menu ul{
+        list-style: none;
+        margin-left:-32px;
+    }
+
+    .hambargar .ham-menu ul .drop-up a{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hambargar .ham-menu ul .drop-up a i{
+        color:#7fad39;
+        background: #f6f6f6;
+        padding: 2px 5px;
+        border-radius: 50%;
+    }
+    
+    .hambargar .ham-menu ul li{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid #5555553a;
+    }
+
+
+    .hambargar .ham-menu ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+
+    .hambargar .drop-up .accordion .accordion-item h2 p{
+        font-size: 17px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .hambargar .main__icon{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .hambargar .main__icon a i{
+        color: #000000;
+    }
+ 
+    .hambargar .email__et{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .menu-button .arrow i{
+        position: absolute;
+        right: 10px;
+    }
+
+    .accordion-item ul li:last-child{
+        border-bottom: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background: none;
+        border: none;
+        outline: none;
+    }
+
+    .accordion-button:focus{
+        box-shadow: 0;
+        background:#fff;
+    }
+
+    .accordion-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 0;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+        border: 0;
+        border-radius: 0;
+        cursor: pointer;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    }
+
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 15px;
+        height: 15px;
+        margin-right: 20px;
+        background-size: cover;
+        margin-top: -10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+   
+ }
+
+ @media (max-width:767px) {
+    .nav .love {
+       right: 120px;
+    }
+ }
+
+ @media (max-width:581px) {
+    .nav .love {
+        right: 0px;
+    }
+ }
